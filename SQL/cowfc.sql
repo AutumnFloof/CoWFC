@@ -26,7 +26,7 @@ CREATE TABLE `users` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `Username` varchar(24) DEFAULT NULL,
   `Password` binary(60) DEFAULT NULL,
-  `Rank` int(1) DEFAULT NULL,
+  `Ranx` int(1) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
